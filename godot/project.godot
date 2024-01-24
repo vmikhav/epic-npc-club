@@ -10,9 +10,9 @@ config_version=5
 
 [application]
 
-config/name="MyGame"
+config/name="Epic NPC Club"
 run/main_scene="res://scenes/boot/godot/godot_bootsplash_scene.tscn"
-config/features=PackedStringArray("4.2")
+config/features=PackedStringArray("4.3")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -93,4 +93,6 @@ locale/translations=PackedStringArray("res://i18n/translation.de.translation", "
 
 [rendering]
 
-environment/defaults/default_clear_color=Color(0.211765, 0.239216, 0.321569, 1)
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/name="Epic NPC Club"

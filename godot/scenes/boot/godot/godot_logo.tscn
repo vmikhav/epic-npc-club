@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dbi3kwcagajfd" path="res://scenes/boot/logo.png" id="1_642wf"]
 [ext_resource type="FontFile" uid="uid://le2vdo2626vw" path="res://fonts/Montserrat-Medium.ttf" id="2_b778c"]
 
+
 [sub_resource type="LabelSettings" id="LabelSettings_cbnh2"]
 
 [node name="GodotLogo" type="Node2D"]
