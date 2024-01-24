@@ -18,6 +18,9 @@ config/icon="res://icon.svg"
 [autoload]
 
 UserSettings="*res://settings/user_settings.gd"
+BeehaveGlobalMetrics="*res://addons/beehave/metrics/beehave_global_metrics.gd"
+BeehaveGlobalDebugger="*res://addons/beehave/debug/global_debugger.gd"
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 
 [display]
 
@@ -27,6 +30,10 @@ window/size/window_width_override=1920
 window/size/window_height_override=1080
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep_height"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/beehave/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/gloot/plugin.cfg")
 
 [gui]
 
@@ -90,6 +97,10 @@ pause={
 [internationalization]
 
 locale/translations=PackedStringArray("res://i18n/translation.de.translation", "res://i18n/translation.en.translation")
+
+[physics]
+
+3d/default_gravity_vector=Vector3(0, 0, 0)
 
 [rendering]
 

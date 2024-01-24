@@ -1,0 +1,23 @@
+{
+	"disabled_build_options": {
+		"disable_3d": true,
+		"disable_3d_physics": true,
+		"openxr": false
+	},
+	"disabled_classes": [
+		"NavigationAgent3D",
+		"Node3D",
+		"Occluder3D",
+		"OpenXRAction",
+		"OpenXRActionMap",
+		"OpenXRActionSet",
+		"OpenXRIPBinding",
+		"OpenXRInteractionProfile",
+		"Shape3D",
+		"SkeletonIK3D",
+		"Texture3D",
+		"VoxelGIData",
+		"World3D"
+	],
+	"type": "build_profile"
+}
