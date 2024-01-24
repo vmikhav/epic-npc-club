@@ -1,6 +1,7 @@
 name: Godot CI/CD Pipeline
 
 on: [push, pull_request]
+if: github.ref_name == github.event.repository.default_branch
 
 env:
   GODOT_VERSION: "4.2.1"
