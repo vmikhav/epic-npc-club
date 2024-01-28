@@ -21,6 +21,7 @@ var food = 0
 var chair = 0
 var joke = 0
 var invitation = 0
+var visitors = 0
 var total_score = 0
 
 func generate_adventurer():
@@ -86,5 +87,5 @@ func ability_bonus(points: int) -> int:
 	return (points - 10) / 2
 
 func calc_score():
-	var _visitors = min(invitation, chair)
-	var total_score = round(joke * (_visitors - min(0, food - _visitors) * .25) + max(0, invitation - _visitors) * .25)
+	visitors = min(invitation, chair)
+	total_score = round(joke * (visitors - min(0, food - visitors) * .25) + max(0, invitation - visitors) * .25)

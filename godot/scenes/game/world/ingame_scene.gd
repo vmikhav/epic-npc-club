@@ -68,5 +68,6 @@ func dialogue_ended(resource):
 		Events.calc_score()
 		is_final = true
 		DialogueManager.show_dialogue_balloon(finalDialogue)
+		$Music.play()
 	else:
 		DialogueManager.show_dialogue_balloon(routineDialogue)

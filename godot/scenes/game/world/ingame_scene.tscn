@@ -214,13 +214,16 @@ script = ExtResource("10_lf5b3")
 protoset = ExtResource("9_klnqk")
 prototype_id = "chair"
 properties = {
-"stack_size": 2
+"stack_size": 3
 }
 
 [node name="_Node_54153" type="Node" parent="InventoryStacked"]
 script = ExtResource("10_lf5b3")
 protoset = ExtResource("9_klnqk")
 prototype_id = "food"
+properties = {
+"stack_size": 5
+}
 
 [node name="_Node_108244" type="Node" parent="InventoryStacked"]
 script = ExtResource("10_lf5b3")

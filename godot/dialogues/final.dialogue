@@ -2,22 +2,22 @@
 
 : Day went to it's end,and it's Greg's time to shine!
 ~ first_joke
-%Greg: What do you call a garlic farmer who likes to dance? A gar-licker.
-%Greg: How do you make an adventurer angry? Give him a quest that's im-parsley-ble.
-%Greg: What do you get when you cross a garlic and a vampire? A fang-tastic smell.
+% Greg: What do you call a garlic farmer who likes to dance? A gar-licker.
+% Greg: How do you make an adventurer angry? Give him a quest that's im-parsley-ble.
+% Greg: What do you get when you cross a garlic and a vampire? A fang-tastic smell.
 ~ second_joke
-%Greg: What do you call a garlic farmer who tells jokes? A pun-ion.
-%Greg: How do you know when an adventurer is lying? When he says he likes your garlic breath.
-%Greg: What do you call a garlic farmer who is good at math? A square root.
+% Greg: What do you call a garlic farmer who tells jokes? A pun-ion.
+% Greg: How do you know when an adventurer is lying? When he says he likes your garlic breath.
+% Greg: What do you call a garlic farmer who is good at math? A square root.
 if chair < invitation:
 	: Greg didn't get evoung chairs, so some people had to stand and left earlier
-if food < min(invitation, chair):
+if food < visitors:
 	: Some people left hungry
-else
+if food >= visitors:
 	Greg: Who wants fish and garlic? Yum yum yum!
 if total_score > 500:
 	: Even Bodger and Baradum had to admit that the comedy night was a success.
-else
+if total_score <= 500:
 	: Throughout the event, a disgruntled hum could be heard from Bodger and Baradum.
 : In overall, your score is {{total_score}}!
 Baelin: Morning! Nice day for fishing ain't it! Hu ha!
