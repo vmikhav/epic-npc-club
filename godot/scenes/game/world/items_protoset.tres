@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="ItemProtoset" load_steps=2 format=3 uid="uid://djronijc0g37j"]
+
+[ext_resource type="Script" path="res://addons/gloot/core/item_protoset.gd" id="1_4y30r"]
+
+[resource]
+script = ExtResource("1_4y30r")
+json_data = "[
+    {
+        \"description\": \"\",
+        \"id\": \"fish\",
+        \"name\": \"Fish\",
+        \"stack_size\": \"0\",
+        \"weight\": 0.2
+    },
+    {
+        \"description\": \"There is no comedy night without jokes\",
+        \"id\": \"joke\",
+        \"name\": \"Joke\",
+        \"stack_size\": \"0\",
+        \"weight\": 0
+    },
+    {
+        \"description\": \"People prefer to have a nice seat\",
+        \"id\": \"chair\",
+        \"name\": \"Chair\",
+        \"stack_size\": \"0\",
+        \"weight\": 1
+    },
+    {
+        \"description\": \"I need to let people know about the event\",
+        \"id\": \"invitation\",
+        \"name\": \"Invitation\",
+        \"stack_size\": \"0\",
+        \"weight\": 0
+    },
+    {
+        \"description\": \"Gold to pay quest rewards\",
+        \"id\": \"gold\",
+        \"name\": \"Gold\",
+        \"stack_size\": \"0\",
+        \"weight\": 0
+    },
+    {
+        \"description\": \"Good food can make bad jokes better\",
+        \"id\": \"food\",
+        \"name\": \"Food\",
+        \"stack_size\": \"0\",
+        \"weight\": 0.1
+    }
+]"

@@ -3,6 +3,7 @@
 .import/
 godot/.godot/
 godot/addons/*
+godot/assets/**/*
 # Mono-specific ignores
 .mono/
 data_*/

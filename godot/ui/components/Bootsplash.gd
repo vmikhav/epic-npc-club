@@ -1,2 +1,2 @@
-class_name Bootsplash
+class_name BootsplashNode
 extends Control
