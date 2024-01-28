@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bt016elrt7qch"
+path="res://.godot/imported/routine.dialogue-222050196dfef2ef9e361428c2f0a3db.tres"
+
+[deps]
+
+source_file="res://dialogues/routine.dialogue"
+dest_files=["res://.godot/imported/routine.dialogue-222050196dfef2ef9e361428c2f0a3db.tres"]
+
+[params]
+
+defaults=true

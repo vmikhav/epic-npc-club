@@ -1,0 +1,88 @@
+~ prepare_adventurer
+do generate_adventurer()
+~ attributes
+Adventurer: Level {{level}}, Strength {{strength}}, Constitution {{constitution}}, Dexterity {{dexterity}}, Intelligence {{intelligence}}, Wisdom {{wisdom}}, Charisma {{charisma}}
+if quest_cost > gold:
+	Greg: I don't have enough gold to pay you
+	=> END!
+Greg: Let me check what quest I can give you
+- Check attributes
+	=> attributes
+- Invite people
+	=> invite
+- Prepare jokes
+	=> joke
+- Next >
+	=> quests_p2
+~ quests_p2
+Greg: Hmm...
+- Get chairs
+	=> chair
+- Make food
+	=> food
+- Nothing
+	Greg: Sorry Adventurer, I have no quests for you
+	=> END!
+- < Back
+Greg: Mhm...
+- Check attributes
+	=> attributes
+- Invite people
+	=> invite
+- Prepare jokes
+	=> joke
+- Next >
+	=> quests_p2
+
+~ food
+Greg: I need you to bring me some party food
+Adventurer: Accept!
+: Some time later...
+do process_food_quest()
+if quest_result > 0:
+	Adventurer: Here is food you ordered ({{quest_result}})
+	=> reward
+else
+	=> abandoned
+
+~ chair
+Greg: I need you to bring me some chairs for the party this night
+Adventurer: Accept!
+: Some time later...
+do process_chair_quest()
+if quest_result > 0:
+	Adventurer: Here are chairs you ordered ({{quest_result}})
+	=> reward
+else
+	=> abandoned
+
+~ joke
+Greg: I need you to prepare some jokes for the party this night
+Adventurer: Accept!
+: Some time later...
+do process_joke_quest()
+if quest_result > 0:
+	Adventurer: Here are jokes you ordered ({{quest_result}})
+	=> reward
+else
+	=> abandoned
+
+~ invite
+Greg: I need you to invite people to the party this night
+Adventurer: Accept!
+: Some time later...
+do process_invitation_quest()
+if quest_result > 0:
+	Adventurer: I invited some people for the party ({{quest_result}})
+	=> reward
+else
+	=> abandoned
+
+~ reward
+do pay_reward()
+Greg: Thank you Adventurer! Here is your reward ({{quest_cost}} gold) ({{gold}} left)
+=> END!
+
+~ abandoned
+: Adventurer abandoned the quest
+=> END!

@@ -1,0 +1,9 @@
+import "res://dialogues/quests.dialogue" as dialogues_quests
+
+~ start
+
+Greg: Hello Adventu[speed=0.2]...
+Adventurer: Skip!
+=> dialogues_quests/prepare_adventurer
+
+=> END

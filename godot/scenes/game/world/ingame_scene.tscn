@@ -120,14 +120,14 @@ texture_filter = 1
 position = Vector2(428, 185)
 sprite_frames = SubResource("SpriteFrames_j1yfa")
 autoplay = "default"
-frame_progress = 0.670682
+frame_progress = 0.49376
 
 [node name="Hen" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 position = Vector2(223, 133)
 sprite_frames = SubResource("SpriteFrames_x2ksh")
 autoplay = "default"
-frame_progress = 0.0734675
+frame_progress = 0.896547
 flip_h = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -193,14 +193,6 @@ script = ExtResource("8_nco7w")
 capacity = 5000.0
 item_protoset = ExtResource("9_klnqk")
 
-[node name="_Node_54068" type="Node" parent="InventoryStacked"]
-script = ExtResource("10_lf5b3")
-protoset = ExtResource("9_klnqk")
-prototype_id = "gold"
-properties = {
-"stack_size": 500
-}
-
 [node name="_Node_54090" type="Node" parent="InventoryStacked"]
 script = ExtResource("10_lf5b3")
 protoset = ExtResource("9_klnqk")
@@ -229,6 +221,11 @@ properties = {
 script = ExtResource("10_lf5b3")
 protoset = ExtResource("9_klnqk")
 prototype_id = "food"
+
+[node name="_Node_108244" type="Node" parent="InventoryStacked"]
+script = ExtResource("10_lf5b3")
+protoset = ExtResource("9_klnqk")
+prototype_id = "gold"
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("12_fq70d")

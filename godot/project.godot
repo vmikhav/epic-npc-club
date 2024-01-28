@@ -104,7 +104,7 @@ pause={
 [internationalization]
 
 locale/translations=PackedStringArray("res://i18n/translation.de.translation", "res://i18n/translation.en.translation")
-locale/translations_pot_files=PackedStringArray("res://dialogues/intro.dialogue", "res://dialogues/first.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogues/intro.dialogue", "res://dialogues/first.dialogue", "res://dialogues/quests.dialogue", "res://dialogues/baradum.dialogue", "res://dialogues/routine.dialogue", "res://dialogues/final.dialogue")
 
 [physics]
 

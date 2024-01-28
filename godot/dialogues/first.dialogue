@@ -1,3 +1,5 @@
+import "res://dialogues/quests.dialogue" as dialogues_quests
+
 ~ start
 
 Greg: Oh, here is the first for today...
@@ -5,5 +7,8 @@ Greg: Hello Adventurer! Welcome to the town of Honeywood! I couldn't believe my 
 Adventurer: Skip!
 Greg: There's a dragon that has been terrorising the town of Honeywood! He is called Kripparrian the fierce! All of our best fighters have already perished at the claws of...
 Adventurer: Skip!
+Greg: ...
+Greg: Eh, whatever. Let's see what attributes you got...
+=> dialogues_quests/prepare_adventurer
 
 => END

@@ -30,6 +30,7 @@ layout_mode = 2
 theme_override_constants/separation = 5
 
 [node name="GameLogo" parent="UI/CenterContainer/VBoxContainer" instance=ExtResource("4_fnufg")]
+texture_filter = 6
 layout_mode = 2
 
 [node name="ContinueButton" type="Button" parent="UI/CenterContainer/VBoxContainer"]
@@ -61,15 +62,16 @@ size_flags_horizontal = 4
 text = "leave_game"
 
 [node name="Credits" type="MarginContainer" parent="UI/CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
 layout_mode = 2
-size_flags_horizontal = 4
 theme_override_constants/margin_top = 10
 
 [node name="Label" type="Label" parent="UI/CenterContainer/VBoxContainer/Credits"]
 layout_mode = 2
-text = "V. Mikhav. Based on VLDL \"Epic NPC Man\" series, danieldiggle's \"Sunnyside World\". Made in Ukraine"
+text = "V. Mikhav. Based on VLDL \"Epic NPC Man\". Used danieldiggle's Sunnyside World, B. Fiechter's Cobblestone Village. Made in Ukraine"
 label_settings = SubResource("LabelSettings_2ikbh")
 horizontal_alignment = 1
+autowrap_mode = 2
 
 [node name="FadeOverlay" parent="UI" instance=ExtResource("3_kf1us")]
 unique_name_in_owner = true

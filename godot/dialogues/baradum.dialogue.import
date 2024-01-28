@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bb87mh5luidfx"
+path="res://.godot/imported/baradum.dialogue-2880d97e26476939ac0ae6267a8ea879.tres"
+
+[deps]
+
+source_file="res://dialogues/baradum.dialogue"
+dest_files=["res://.godot/imported/baradum.dialogue-2880d97e26476939ac0ae6267a8ea879.tres"]
+
+[params]
+
+defaults=true

@@ -1,8 +1,9 @@
 ~ start
 
 Baelin: Morning!
+=> END!
 Greg: Good morning, Baelin!
-Baelin: Nice day for fishing aint it!
+Baelin: Nice day for fishing ain't it!
 Greg: Yes, it is. By the way, do you think a joke about chicken will be fun?
 Baelin: Hu ha!
 Greg: Oookey, thank you!
@@ -23,8 +24,8 @@ Bodger: No, Greg. It's not. It's stupid. It's dumb. It's unfunny. And so are you
 Greg: That's not very nice, Bodger. That's mean.
 Bodger: Oh, lighten up, Greg. It's just a bit of banter. You know I love you, really.
 Greg: Really?
-Bodger: No, not really. I hate you. You're the worst NPC ever. Now go away and leave me alone. I have real work to do. Ssssccooooooootlaaaaaand!
+Bodger: No, not really. I hate you. You're the worst NPC ever. Now go away and leave me alone. I have real work to do. [shake rate=10 level=10]Ssssccooooooootlaaaaaand![/shake]
 Greg: ...
-Greg: I still have so much stuff to do... I guess I'll need to give adventurers some "special" quests
+Greg: I still have so much stuff to do... I guess I'll need to give adventurers some "special" quests.
 
 => END
